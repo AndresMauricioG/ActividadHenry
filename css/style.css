@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #8598a2;
+}
+
+#izquierda{
+    display:flex;
+    flex-direction: column;
+}
+
+#Izquierda div{
+    height: 280px;
+    width: 900px;
+    margin: 30px;
+}
+
+
+#Izquierda .Arriba{
+    background-image: url(/images/img01.jpg);
+    background-position: center;
+}
+
+#Izquierda .Medio{
+    background-image: url(/images/img02.jpg);
+    background-position: center;
+}
+
+#Izquierda .Abajo{
+    background-image: url(/images/img03.jpg);
+    background-position: center;
+}
+
+#Derecha{
+    display: flex;
+    flex-direction: column;
+}
+
+#Derecha .Logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#Derecha .Logo img{
+    width: 400px;
+}
+
+#Derecha .Logo .ImagenLogo{
+    display: flex;
+    justify-content: center;
+}
+
+#Derecha .Logo h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95px;
+}
+
+#Derecha .Parrafos{
+    width: 900px;
+    margin-top: 30px;
+}
+
+#Derecha .Parrafos p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 50px;
+    color: #515151;
+}
+
+
+@media (max-width: 1250px) {
+    
+    #Izquierda div{
+        height: 158px;
+        width: 450px;
+        margin: 15px;
+        margin-left: 0;
+    }
+    
+    
+    #Izquierda .Arriba{
+        background-image: url(/images/img01.jpg);
+        background-size: contain;
+    }
+    
+    #Izquierda .Medio{
+        background-image: url(/images/img02.jpg);
+        background-size: contain;
+    }
+    
+    #Izquierda .Abajo{
+        background-image: url(/images/img03.jpg);
+        background-size: contain;
+    }
+    
+    
+    #Derecha .Logo{
+        margin-top: 40px;
+    }
+    
+    #Derecha .Logo img{
+        width: 200px;
+    }
+    
+    #Derecha .Logo h1{
+        font-size: 45px;
+    }
+    
+    #Derecha .Parrafos{
+        width: 450px;
+        margin-top: 12px;
+    }
+    
+    #Derecha .Parrafos p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        line-height: 25px;
+        color: #515151;
+    }
+
+
+
+}
+
+@media (max-width: 360px) {
+
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    #Izquierda div{
+        height: 125px;
+        width: 320px;
+        margin: 15px;
+    }
+    
+    
+    #Izquierda .Arriba{
+        background-image: url(/images/img01.jpg);
+        background-size: contain;
+    }
+    
+    #Izquierda .Medio{
+        background-image: url(/images/img02.jpg);
+        background-size: contain;
+    }
+    
+    #Izquierda .Abajo{
+        background-image: url(/images/img03.jpg);
+        background-size: contain;
+    }
+    
+    
+    #Derecha .Logo{
+        margin-top: 20px;
+    }
+    
+    #Derecha .Logo img{
+        width: 200px;
+    }
+    
+    #Derecha .Logo h1{
+        font-size: 35px;
+    }
+    
+    #Derecha .Parrafos{
+        width: 320px;
+        margin: 10px;
+    }
+    
+    #Derecha .Parrafos p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        line-height: 25px;
+        color: #515151;
+    }
+
+
+
+}
